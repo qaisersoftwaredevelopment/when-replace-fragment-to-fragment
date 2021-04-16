@@ -1,0 +1,4 @@
+
+        FragmentTransaction fragmentTransaction=getFragmentManager().beginTransaction()
+                .replace(R.id.current_fragment,new newfragment());
+        fragmentTransaction.commit();
